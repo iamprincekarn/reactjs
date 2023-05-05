@@ -1,0 +1,12 @@
+I have started learning reactjs from today from thapa technical
+
+reactjs :
+
+#it is a library not a framework - 
+A library is like a toolbox full of tools that developers can use to build their applications. They choose which tools to use and how to use them to build their application.
+A framework is like a blueprint for building an application. It provides a pre-designed structure and set of rules that developers must follow to build their application. Developers fill in the details within the framework to make their application work.
+In short, a library is a collection of tools, while a framework is a pre-designed structure that provides a set of rules and conventions for building an application.
+
+
+#it provides component based apporach - 
+break the UI into different component then write code once and use anywhere it in the program.
