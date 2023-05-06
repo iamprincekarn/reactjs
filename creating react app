@@ -1,0 +1,8 @@
+command to be written in command prompt
+
+>create-react-app livecovidapp
+
+after some time it will finish creating react app
+
+>cd livecovidapp
+>npm start
