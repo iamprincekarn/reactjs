@@ -1,0 +1,11 @@
+// if we are exporting any component using named export for example, like this
+export const Greet = () => <h1>Hello, Prince</h1>
+// then we have to import this in any other component using the same name as the component name here (here Greet).
+
+
+
+// if export is deafult then we can import using any name
+import React from 'react'
+const Greet = () => <h1>Hello, Prince</h1>
+export default Greet;
+// now we can import this component by any name in any other component
