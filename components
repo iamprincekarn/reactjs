@@ -1,0 +1,16 @@
+components are of two types
+function based component and class based component
+
+
+*** stateless functional component
+funtion welcome(props) {
+  return <h1> Hello, {props.name} </h1>
+}
+
+
+*** stateful class component
+class welcome extends React.Component {
+  render() {
+    return <h1> Hello, {props.name} </h1>
+    }
+}
