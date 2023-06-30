@@ -1,0 +1,36 @@
+// react with jsx
+import React from 'react'
+const Hello = () => {
+  return (
+    <div>
+      <h1>Hello this is using jsx</h1>
+    </div>
+    )
+}
+export default Greet;
+
+
+
+// react without jsx
+import React from 'react'
+const Hello = () => {
+  return React.createElement('div',null,'h1', 'hello prince') //null is any additional property and 3rd parameter is child of div
+}
+
+//inserting also child of any element
+import React from 'react'
+const Greet = () => React.createElement(
+    'div',
+    null,
+    React.createElement('h1',null, 'hello prince')
+    )
+export default Greet;
+
+//focussing on second parameter of createElement
+import React from 'react'
+const Greet = () => React.createElement(
+    'div',
+    {id:'hello', className: 'dummy'},
+    React.createElement('h1',null, 'hello prince')
+    )
+export default Greet;
