@@ -1,0 +1,28 @@
+// app.js file
+import logo from './logo.svg';
+import './App.css';
+import Greet from './components/Greet'
+
+function App() {
+  return (
+    <div className="App">
+      <Greet name="Prince" bhagwanName="Ram" />
+      <Greet name="Clarke" bhagwanName="Krishna" />
+      <Greet name="Aman" bhagwanName="Varah" />
+    </div>
+  );
+}
+export default App;
+
+
+// Greet.js file
+import React from 'react'
+const Greet = props =>{
+console.log(props)
+return <h1>hello {props.name} says by {props.bhagwanName} </h1>
+}
+export default Greet;
+
+
+
+
